@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Books</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__menu">
+            <label for="menu">
+                <span class="header__menu-expandable container__imagem"></span>
+            </label>
+            <ul class="list-menu">
+                <li class="list-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="list-menu__link">PROGRAMAÇÃO</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="list-menu__link">FRONT-END</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="list-menu__link">INFRAESTRUTURA</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="list-menu__link">BUSINESS</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="list-menu__link">DESIGN & UX</a>
+                </li>
+            </ul>
+            <img src="./assets/Logo.svg" alt="Logo do Alura Books" class="container__imagem">
+        </div>
+        <div class="container">
+            <a href="#"><img src="./assets/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+            <a href="#"><img src="./assets/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
+            <a href="#"><img src="./assets/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__heading">Já sabe por onde começar?</h2>
+        <p class="banner__paragraph">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+        <input type="search" class="banner__search" placeholder="Qual será sua próxima leitura?">
+    </section>
 </body>
 </html>
