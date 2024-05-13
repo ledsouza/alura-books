@@ -1,0 +1,8 @@
+.footer {
+    background-color: var(--color-primary);
+    padding: 1em;
+}
+
+.footer__title {
+    color: var(--color-black);
+}

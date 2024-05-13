@@ -5,6 +5,7 @@
 @import url('card.css');
 @import url('topics.css');
 @import url('contact.css');
+@import url('footer.css');
 
 :root {
     --background-color: #EBECEE;
@@ -26,4 +27,8 @@ body {
     font-weight: var(--font-regular);
     font-style: normal;
     font-size: 16px;
+}
+
+hr {
+    margin: 0;
 }
