@@ -58,7 +58,8 @@
 }
 
 .description__rating {
-    width: 80%;
+    width: 91px;
+    height: 15px;
 }
 
 .description__title-author {
