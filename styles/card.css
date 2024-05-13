@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     padding: 1em;
+    gap: 0.5em;
 }
 
 .description__text {
@@ -53,5 +54,15 @@
     color: var(--color-primary);
     text-decoration: none;
     font-weight: var(--font-bold);
-    padding: 1em 2.2em;
+    padding: 1.1em 2.2em;
+}
+
+.description__rating {
+    width: 80%;
+}
+
+.description__title-author {
+    color: var(--color-blue);
+    font-size: 1.125rem;
+    font-weight: var(--font-bold);
 }
