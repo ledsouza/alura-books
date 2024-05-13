@@ -2,12 +2,15 @@
 @import url('header.css');
 @import url('banner.css');
 @import url('carousel.css');
+@import url('card.css');
 
 :root {
     --background-color: #EBECEE;
     --color-primary: #FFFFFF;
     --color-secondary: #EB9B00;
     --color-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --color-blue: #002F52;
+    --color-black: #000000;
     --font-primary: "Poppins", sans-serif;
     --font-light: 300;
     --font-regular: 400;
