@@ -36,9 +36,40 @@
                 </li>
             </ul>
             <img src="./assets/Logo.svg" alt="Logo do Alura Books" class="container__imagem">
+            <h1 class="container__title"><b class="container__title-bold">Alura</b>Books</h1>
         </div>
+        <ul class="options">
+            <input type="checkbox" id="options-menu" class="options__button">
+            <label for="options-menu">
+                <li class="options__item">Categorias</li>
+            </label>
+            <ul class="list-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="list-menu__link">PROGRAMAÇÃO</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="list-menu__link">FRONT-END</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="list-menu__link">INFRAESTRUTURA</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="list-menu__link">BUSINESS</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="list-menu__link">DESIGN & UX</a>
+                </li>
+            </ul>
+            <li class="options__item">
+                <a href="#" class="options__link">Favoritos</a>
+            </li>
+            <li class="options__item">
+                <a href="#" class="options__link">Minha estante</a>
+            </li>
+        </ul>
         <div class="container">
-            <a href="#"><img src="./assets/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+            <a href="#"><img src="./assets/Favoritos.svg" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparent"></a>
             <a href="#"><img src="./assets/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
             <a href="#"><img src="./assets/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
         </div>
@@ -85,8 +116,10 @@
         <div class="card__buttons">
             <!-- 1ª colunm-->
             <ul class="buttons__list">
-                <li class="button__item"><a href="#"><img src="./assets/Favoritos.svg" alt="Adicionar aos favoritos"></a></li>
-                <li class="button__item"><a href="#"><img src="./assets/Compras.svg" alt="Adicionar a lista de compras"></a></li>
+                <li class="button__item"><a href="#"><img src="./assets/Favoritos.svg"
+                            alt="Adicionar aos favoritos"></a></li>
+                <li class="button__item"><a href="#"><img src="./assets/Compras.svg"
+                            alt="Adicionar a lista de compras"></a></li>
             </ul>
             <!-- 2ª colunm-->
             <a href="#" class="button__link">Saiba mais</a>
@@ -101,8 +134,7 @@
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide"><img src="./assets/Gestão.svg" alt="Livro sobre Gestão"></div>
-                <div class="swiper-slide"><img src="./assets/Gestão2.svg"
-                        alt="Livro sobre Gestão 2"></div>
+                <div class="swiper-slide"><img src="./assets/Gestão2.svg" alt="Livro sobre Gestão 2"></div>
                 <div class="swiper-slide"><img src="./assets/Liderança.svg" alt="Livro sobre Liderança"></div>
                 <div class="swiper-slide"><img src="./assets/MetricasAgeis.svg" alt="Livro sobre Métricas Ágeis"></div>
                 <div class="swiper-slide"><img src="./assets/UX.svg" alt="Livro sobre UX"></div>
@@ -121,7 +153,8 @@
                 <img src="./assets/Estrelinhas.svg" alt="Avaliação do livro" class="description__rating">
                 <h3 class="description__title">Autora do Mês</h3>
                 <h2 class="description__title-author">Juliana Agarikov</h2>
-                <p class="description__paragraph">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                <p class="description__paragraph">Analista de sistemas e escritora, Juliana é especialista em Front-End.
+                </p>
             </div>
             <!-- 2ª colunm-->
             <img src="./assets/Perfil-escritora 1.svg" alt="Foto da autora" class="description__image">
@@ -130,8 +163,10 @@
         <div class="card__buttons">
             <!-- 1ª colunm-->
             <ul class="buttons__list">
-                <li class="button__item"><a href="#"><img src="./assets/Favoritos.svg" alt="Adicionar aos favoritos"></a></li>
-                <li class="button__item"><a href="#"><img src="./assets/Compras.svg" alt="Adicionar a lista de compras"></a></li>
+                <li class="button__item"><a href="#"><img src="./assets/Favoritos.svg"
+                            alt="Adicionar aos favoritos"></a></li>
+                <li class="button__item"><a href="#"><img src="./assets/Compras.svg"
+                            alt="Adicionar a lista de compras"></a></li>
             </ul>
             <!-- 2ª colunm-->
             <a href="#" class="button__link">Saiba mais</a>
@@ -180,7 +215,7 @@
     <script>
         const swiper = new Swiper('.swiper', {
             spaceBetween: 15,
-            slidesPerView: 2,
+            slidesPerView: 3,
             pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets',
