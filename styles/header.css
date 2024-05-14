@@ -80,6 +80,10 @@
     display: none;
 }
 
+.link__text-container {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
 
     .header {
@@ -124,5 +128,27 @@
     .options__button:checked ~ .list-menu{
         display: block;
         width: auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .header {
+        padding: 0.625em 3em;
+    }
+    
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .link__text-container {
+        display: block;
+        color: var(--color-black);
+    }
+
+    .options {
+        margin-right: auto;
+        margin-left: 4em;
     }
 }
