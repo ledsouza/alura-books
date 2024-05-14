@@ -94,10 +94,10 @@
                 <div class="swiper-slide"><img src="./assets/Nodejs.svg" alt="Livro sobre Nodejs"></div>
                 <div class="swiper-slide"><img src="./assets/ReactNative.svg" alt="Livro sobre React Native"></div>
                 <div class="swiper-slide"><img src="./assets/Portugol.svg" alt="Livro sobre Portugol"></div>
-                <!-- Navigation button-->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
             </div>
+            <!-- Navigation button-->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
     </section>
     <section class="card">
@@ -139,10 +139,10 @@
                 <div class="swiper-slide"><img src="./assets/MetricasAgeis.svg" alt="Livro sobre Métricas Ágeis"></div>
                 <div class="swiper-slide"><img src="./assets/UX.svg" alt="Livro sobre UX"></div>
                 <div class="swiper-slide"><img src="./assets/Construct2.svg" alt="Livro sobre Construct"></div>
-                <!-- Navigation button-->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
             </div>
+            <!-- Navigation button-->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
     </section>
     <section class="card">
@@ -202,13 +202,88 @@
         </ul>
     </section>
     <section class="contact">
-        <h2 class="contact__title">Fique por dentro das novidades!</h2>
-        <p class="contact__paragraph">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="contact__text">
+            <h2 class="contact__title">Fique por dentro das novidades!</h2>
+            <p class="contact__paragraph">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
         <input type="email" placeholder="Cadastre seu e-mail" class="contact__email">
     </section>
     <hr>
     <footer class="footer">
         <h2 class="footer__title">Grupo Alura</h2>
+        <ul class="footer__list">
+            <li class="list__title-footer">Educação</li>
+            <li class="list__item-footer">
+                <img src="./assets/Caelum.svg" alt="Logo da Caelum">
+                <a href="#" class="footer__link">Caelum</a>
+            </li>
+            <li class="list__item-footer">
+                <img src="./assets/CasaDoCodigo.svg" alt="Logo da Casa do Código">
+                <a href="#" class="footer__link">Casa do Código</a>
+            </li>
+        </ul>
+        <ul class="footer__list">
+            <li class="list__title-footer">Educação Online</li>
+            <li class="list__item-footer">
+                <img src="./assets/Alura.svg" alt="Logo da Alura">
+                <a href="#" class="footer__link">Alura</a>
+            </li>
+            <li class="list__item-footer">
+                <img src="./assets/AluraEmpresas.svg" alt="Logo da Alura para Empresas">
+                <a href="#" class="footer__link">Alura Para Empresas</a>
+            </li>
+            <li class="list__item-footer">
+                <img src="./assets/AluraLATAM.svg" alt="Logo da Alura LATAM">
+                <a href="#" class="footer__link">Alura LATAM</a>
+            </li>
+            <li class="list__item-footer">
+                <img src="./assets/AluraStart.svg" alt="Logo da Alura Start">
+                <a href="#" class="footer__link">Alura Start</a>
+            </li>
+            <li class="list__item-footer">
+                <img src="./assets/MusicDot.svg" alt="Logo da MusicDot">
+                <a href="#" class="footer__link">MusicDot</a>
+            </li>
+            <li class="list__item-footer">
+                <img src="./assets/AluraLingua.svg" alt="Logo da Alura Língua">
+                <a href="#" class="footer__link">Alura Língua</a>
+            </li>
+            <li class="list__item-footer">
+                <img src="./assets/PM3.svg" alt="Logo da PM3">
+                <a href="#" class="footer__link">PM3</a>
+            </li>
+        </ul>
+        <ul class="footer__list">
+            <li class="list__title-footer">Comunidade</li>
+            <li class="list__item-footer">
+                <img src="./assets/HipstersTech.svg" alt="Logo da Hipsters ponto Tech">
+                <a href="#" class="footer__link">Hipsters ponto Tech</a>
+            </li>
+            <li class="list__item-footer">
+                <img src="./assets/ScubaDev.svg" alt="Logo da Scuba Dev">
+                <a href="#" class="footer__link">Scuba Dev</a>
+            </li>
+            <li class="list__item-footer">
+                <img src="./assets/LayersTech.svg" alt="Logo da Layers ponto Tech">
+                <a href="#" class="footer__link">Layers ponto Tech</a>
+            </li>
+            <li class="list__item-footer">
+                <img src="./assets/LikeABoss.svg" alt="Logo da Like a Boss">
+                <a href="#" class="footer__link">Like a Boss</a>
+            </li>
+            <li class="list__item-footer">
+                <img src="./assets/CarreiraSemFronteira.svg" alt="Logo da Carreira Sem Fronteira">
+                <a href="#" class="footer__link">Carreira Sem Fronteira</a>
+            </li>
+            <li class="list__item-footer">
+                <img src="./assets/HipstersJobs.svg" alt="Logo da Hipsters ponto Jobs">
+                <a href="#" class="footer__link">Hipsters ponto Jobs</a>
+            </li>
+            <li class="list__item-footer">
+                <img src="./assets/GUJ.svg" alt="Logo da GUJ">
+                <a href="#" class="footer__link">GUJ</a>
+            </li>
+        </ul>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -219,6 +294,10 @@
             pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
             },
         });
     </script>

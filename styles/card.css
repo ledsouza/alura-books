@@ -67,3 +67,11 @@
     font-size: 1.125rem;
     font-weight: var(--font-bold);
 }
+
+@media screen and (min-width: 1024px) {
+    
+    .card {
+        width: 50%;
+        margin: 1em auto;
+    }
+}

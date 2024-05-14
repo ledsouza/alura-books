@@ -29,3 +29,17 @@
     text-decoration: none;
     padding: 1em 1.5em;
 }
+
+@media screen and (min-width:1024px) {
+    .topics__title {
+        font-size: 1.5rem;
+    }
+
+    .list__item {
+        margin: 2.5em 0.5em;
+    }
+
+    .item__link {
+        font-size: 1.5rem;
+    }
+}
