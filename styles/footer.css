@@ -14,7 +14,7 @@
 @media screen and (min-width: 1024px) {
     .footer {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         padding-top: 3em;
     }
 
@@ -43,5 +43,12 @@
     .footer__link {
         text-decoration: none;
         color: var(--color-footer-primary);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .footer__list {
+        border-left: 1px solid var(--color-footer-secondary);
+        padding-left: 1em;
     }
 }

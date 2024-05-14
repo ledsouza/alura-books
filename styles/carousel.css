@@ -45,3 +45,18 @@
         padding-top: 3em;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .carousel__title {
+        font-size: 2rem;
+    }
+
+    .carousel__container {
+        display: flex;
+        margin: 2em 10.8em;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 2em 0;
+    }
+}

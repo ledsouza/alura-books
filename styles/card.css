@@ -75,3 +75,17 @@
         margin: 1em auto;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .card {
+        margin: 4.3em auto 2em 2em;
+    }
+
+    .description__title {
+        font-size: 2rem;
+    }
+
+    /* .description__title-author {
+        font-size: 2rem;
+    } */
+}
